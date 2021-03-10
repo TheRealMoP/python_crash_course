@@ -2,7 +2,7 @@ import sys
 
 class C06Dictionaries(object):
     def __init__(self):
-        print("\n*** Chapter 6: Dictionaries ***")
+        print("\n*** CHAPTER 6: DICTIONARIES ***")
 
         fruit_apple = {'color' : 'green', 'taste' : 'sour'}
         print("color: " + fruit_apple['color'])
