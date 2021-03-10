@@ -31,6 +31,9 @@
     <Compile Include="classes\c05_if_statements.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="classes\c06_dictionaries.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="start.py">
       <SubType>Code</SubType>
     </Compile>
