@@ -37,6 +37,12 @@
     <Compile Include="classes\c07_user_input_and_while.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="classes\c08_functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\mixed_module.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="start.py">
       <SubType>Code</SubType>
     </Compile>

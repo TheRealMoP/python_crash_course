@@ -4,6 +4,7 @@ from classes.c04_working_with_lists import C04WorkingWithLists
 from classes.c05_if_statements import C05IfSatements
 from classes.c06_dictionaries import C06Dictionaries
 from classes.c07_user_input_and_while import C07UserInputAndWhile
+from classes.c08_functions import C08Functions
 
 
 #c02 = C02VariablesAndSimpleData()
@@ -11,4 +12,5 @@ from classes.c07_user_input_and_while import C07UserInputAndWhile
 #c04 = C04WorkingWithLists()
 #c05 = C05IfSatements()
 #c06 = C06Dictionaries()
-c07 = C07UserInputAndWhile()
+#c07 = C07UserInputAndWhile()
+c08 = C08Functions()
