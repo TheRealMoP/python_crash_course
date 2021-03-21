@@ -134,3 +134,4 @@ dmypy.json
 __pycache__
 .vs
 /local
+/TestResults

@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>python_crash_course</Name>
     <RootNamespace>python_crash_course</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,6 +49,15 @@
     <Compile Include="chapters\c10_files_and_exceptions.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="chapters\c11_testing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common\format_utils.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="common\mixed_module.py">
       <SubType>Code</SubType>
     </Compile>
@@ -64,17 +76,27 @@
     <Compile Include="start.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tests\test_format_utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_survey.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="chapters\" />
     <Folder Include="classes\" />
     <Folder Include="common\" />
+    <Folder Include="tests\" />
     <Folder Include="ressources\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ressources\commands.txt" />
     <Content Include="ressources\pi.txt" />
     <Content Include="ressources\pi_1mio.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
