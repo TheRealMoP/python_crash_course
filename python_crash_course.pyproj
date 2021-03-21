@@ -72,9 +72,7 @@
     <Folder Include="ressources\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ressources\appending_file.txt" />
     <Content Include="ressources\commands.txt" />
-    <Content Include="ressources\new_file.txt" />
     <Content Include="ressources\pi.txt" />
     <Content Include="ressources\pi_1mio.txt" />
   </ItemGroup>
