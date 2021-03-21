@@ -7,6 +7,7 @@ from chapters.c07_user_input_and_while import C07UserInputAndWhile
 from chapters.c08_functions import C08Functions
 from chapters.c09_classes import C09Classes
 from chapters.c10_files_and_exceptions import C10FilesAndExceptions
+from chapters.c11_testing import C11Testing
 
 
 #c02 = C02VariablesAndSimpleData()
@@ -17,4 +18,5 @@ from chapters.c10_files_and_exceptions import C10FilesAndExceptions
 #c07 = C07UserInputAndWhile()
 #c08 = C08Functions()
 #c09 = C09Classes()
-c10 = C10FilesAndExceptions()
+#c10 = C10FilesAndExceptions()
+c11 = C11Testing()

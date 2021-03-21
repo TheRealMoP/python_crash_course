@@ -7,9 +7,10 @@ from classes.human import Human, HumanEncoder
 from common.mixed_module import random_date as rd
 
 class C10FilesAndExceptions:
-    print("\n*** Chapter 10: FILES AND EXCEPTIONS ***")
 
     def __init__(self):
+        print("\n*** Chapter 10: FILES AND EXCEPTIONS ***")
+        
         #path = "ressources\pi.txt"
 
         #print(fops.read_complete_file(path))
