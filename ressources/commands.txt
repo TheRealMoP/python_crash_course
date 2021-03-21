@@ -1,0 +1,12 @@
+--q   : Quit
+--p   : Print
+--cnt : Count words
+--clr : Clear File
+
+--add x y: Add x + y
+--sub x y: Subtract x - y
+--mul x y: Multiply x * y
+--div x y: Divide x / y
+--exp x y: Exponentiate x^y
+
+To append new line just type in your text and press Enter

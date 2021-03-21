@@ -1,4 +1,4 @@
-from classes.mixed_module import random_number
+from common.mixed_module import random_number
 
 class C08Functions(object):
     def __init__(self):

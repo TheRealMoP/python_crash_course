@@ -2,21 +2,21 @@ class C07UserInputAndWhile(object):
     def __init__(self):
         print("\n*** Chapter 7: USER INPUT AND WHILE LOOPS ***")
 
-        #self.name_and_age()               
+        self.name_and_age()               
+        
+        #my_index = 0
+        #while(my_index <= 5):
+        #    print(my_index)
+        #    my_index += 1;
 
-        my_index = 0
-        while(my_index <= 5):
-            print(my_index)
-            my_index += 1;
+        #candidates = ['Adam', 'Berta', 'Anna', 'Michael', 'Anna', 'Jessica', 'Zelda'];
 
-        candidates = ['Adam', 'Berta', 'Anna', 'Michael', 'Anna', 'Jessica', 'Zelda'];
+        ##new_users = self.register_users(sorted(candidates))
+        ##print("- New Users -")
+        ##print(new_users)
 
-        #new_users = self.register_users(sorted(candidates))
-        #print("- New Users -")
-        #print(new_users)
-
-        self.delete_users(candidates, 'Anna')
-        print(candidates)
+        #self.delete_users(candidates, 'Anna')
+        #print(candidates)
 
     def delete_users(self, user_list, user_name):
         while(user_name in user_list):
