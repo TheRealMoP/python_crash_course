@@ -21,26 +21,44 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="classes\c02_variables_and_siple_data.py" />
-    <Compile Include="classes\c03_lists.py">
+    <Compile Include="chapters\c02_variables_and_siple_data.py" />
+    <Compile Include="chapters\c03_lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\c04_working_with_lists.py">
+    <Compile Include="chapters\c04_working_with_lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\c05_if_statements.py">
+    <Compile Include="chapters\c05_if_statements.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\c06_dictionaries.py">
+    <Compile Include="chapters\c06_dictionaries.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\c07_user_input_and_while.py">
+    <Compile Include="chapters\c07_user_input_and_while.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\c08_functions.py">
+    <Compile Include="chapters\c08_functions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="classes\mixed_module.py">
+    <Compile Include="chapters\c09_classes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="chapters\c10_files_and_exceptions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common\mixed_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common\file_ops.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\human.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\student.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="common\math_ops.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="start.py">
@@ -48,7 +66,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="chapters\" />
     <Folder Include="classes\" />
+    <Folder Include="common\" />
+    <Folder Include="ressources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ressources\appending_file.txt" />
+    <Content Include="ressources\commands.txt" />
+    <Content Include="ressources\new_file.txt" />
+    <Content Include="ressources\pi.txt" />
+    <Content Include="ressources\pi_1mio.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
