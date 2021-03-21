@@ -30,12 +30,12 @@ class C10FilesAndExceptions:
         #else:
         #    print("Gesuchter string nicht gefunden")
 
-        path_for_replacing_text = 'ressources/new_file.txt'
+        path_for_replacing_text = 'local/new_file.txt'
         fops.write_and_replace(path_for_replacing_text, "Ich bin neu hier!")
 
         #self.run_editor()
 
-        json_obj = "ressources/json_obj.json"
+        json_obj = "local/json_obj.json"
         c09 = C09Classes()
         self.save_data(c09.students, json_obj)
         loadded_data = self.read_date(json_obj)
@@ -60,7 +60,7 @@ class C10FilesAndExceptions:
             return json.load(file)
 
     def run_editor(self):        
-        path_for_appending_text = 'ressources/appending_file.txt'
+        path_for_appending_text = 'local/appending_file.txt'
         cmd = "";       
         
         print("Welcome to my text editor. For help type --help or -h")
